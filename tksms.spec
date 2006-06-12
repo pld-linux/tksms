@@ -1,4 +1,4 @@
-Summary:	GUI frontend for SMS application. 
+Summary:	GUI frontend for SMS application.
 Summary(pl):	Interface graficzny do programu SMS.
 Name:		tksms
 Version:	0.1
@@ -8,8 +8,8 @@ Group:		Applications
 Source0:	http://www.ceti.com.pl/~miki/komputery/download/sms/%{name}.tar.gz
 # Source0-md5:	8aea73d95931628eb5d6fc38cc71e4f7
 URL:		http://www.ceti.com.pl/~miki/komputery/sms.html
-Requires:	sms
 Requires:	perl-Tk
+Requires:	sms
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
