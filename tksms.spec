@@ -18,17 +18,16 @@ GUI frontend for SMS application writen in Perl and using the Tk
 module.
 
 %description -l pl
-GUI frontend do programu SMS napisany w Perlu z u¿yciem modu³u Tk.
+Graficzny interfejs u¿ytkownika do programu SMS napisany w Perlu z
+u¿yciem modu³u Tk.
 
 %prep
 %setup -q -n %{name}
 
-%build
-
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_bindir}
-install ./*sms* $RPM_BUILD_ROOT%{_bindir}/
+install ./*sms* $RPM_BUILD_ROOT%{_bindir}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
