@@ -1,5 +1,5 @@
 Summary:	GUI frontend for SMS application
-Summary(pl):	Interfejs graficzny do programu SMS
+Summary(pl.UTF-8):   Interfejs graficzny do programu SMS
 Name:		tksms
 Version:	0.1
 Release:	0.1
@@ -17,9 +17,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 GUI frontend for SMS application writen in Perl and using the Tk
 module.
 
-%description -l pl
-Graficzny interfejs uøytkownika do programu SMS napisany w Perlu z
-uøyciem modu≥u Tk.
+%description -l pl.UTF-8
+Graficzny interfejs u≈ºytkownika do programu SMS napisany w Perlu z
+u≈ºyciem modu≈Çu Tk.
 
 %prep
 %setup -q -n %{name}
