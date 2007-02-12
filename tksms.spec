@@ -1,5 +1,5 @@
 Summary:	GUI frontend for SMS application
-Summary(pl.UTF-8):   Interfejs graficzny do programu SMS
+Summary(pl.UTF-8):	Interfejs graficzny do programu SMS
 Name:		tksms
 Version:	0.1
 Release:	0.1
